@@ -1,0 +1,91 @@
+@let ch = chapter();
+
+<article class="chapter">
+  <header class="chapter__head">
+    <h1>{{ ch.title }}</h1>
+    @if (ch.subtitle) {
+      <p class="chapter__subtitle">{{ ch.subtitle }}</p>
+    }
+  </header>
+
+  <!-- Summary callout -->
+  <aside class="summary" aria-label="Chapter summary">
+    <h2 class="summary__title">{{ ch.summary.title }}</h2>
+    <ul class="summary__list">
+      @for (item of ch.summary.items; track $index) {
+        <li>{{ item }}</li>
+      }
+    </ul>
+  </aside>
+
+  <!-- Body blocks -->
+  <div class="chapter__body">
+    @for (block of ch.blocks; track $index) {
+      @switch (block.type) {
+        @case ('h2') {
+          <h2>{{ block.text }}</h2>
+        }
+        @case ('h3') {
+          <h3>{{ block.text }}</h3>
+        }
+        @case ('p') {
+          <p>{{ block.text }}</p>
+        }
+        @case ('small') {
+          <p class="small-text">{{ block.text }}</p>
+        }
+        @case ('ul') {
+          <ul>
+            @for (li of block.items; track $index) {
+              <li>{{ li }}</li>
+            }
+          </ul>
+        }
+        @case ('ol') {
+          <ol>
+            @for (li of block.items; track $index) {
+              <li>{{ li }}</li>
+            }
+          </ol>
+        }
+        @case ('note') {
+          <aside class="note">
+            <p>{{ block.text }}</p>
+          </aside>
+        }
+        @case ('figure') {
+          <app-annotated-figure
+            [image]="block.image ?? ''"
+            [alt]="block.alt ?? ''"
+            [caption]="block.caption ?? ''"
+            [markers]="block.markers ?? []"
+          />
+        }
+        @case ('table') {
+          <div class="table-wrap">
+            <table class="data-table">
+              @if (block.headers?.length) {
+                <thead>
+                  <tr>
+                    @for (h of block.headers; track $index) {
+                      <th scope="col">{{ h }}</th>
+                    }
+                  </tr>
+                </thead>
+              }
+              <tbody>
+                @for (row of block.rows; track $index) {
+                  <tr>
+                    @for (cell of row; track $index) {
+                      <td>{{ cell }}</td>
+                    }
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        }
+      }
+    }
+  </div>
+</article>

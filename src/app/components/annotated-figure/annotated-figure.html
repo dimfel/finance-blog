@@ -1,0 +1,51 @@
+@let act = active();
+
+<figure class="figure">
+  <div class="figure__frame">
+    <img class="figure__img" [src]="image()" [alt]="alt()" />
+
+    <div class="figure__overlay" aria-hidden="true">
+      @for (m of markers(); track m.n) {
+        <button
+          type="button"
+          class="pin"
+          [class.pin--active]="act === m.n"
+          [style.left.%]="m.x"
+          [style.top.%]="m.y"
+          [attr.aria-label]="'Marker ' + m.n + ': ' + m.label"
+          (mouseenter)="activate(m.n)"
+          (mouseleave)="clear()"
+          (focus)="activate(m.n)"
+          (blur)="clear()"
+        >
+          {{ m.n }}
+        </button>
+      }
+    </div>
+  </div>
+
+  @if (caption()) {
+    <figcaption class="figure__caption small-text">{{ caption() }}</figcaption>
+  }
+
+  @if (markers().length) {
+    <ol class="legend small-text">
+      @for (m of markers(); track m.n) {
+        <li>
+          <button
+            type="button"
+            class="legend__row"
+            [class.legend__row--active]="act === m.n"
+            (mouseenter)="activate(m.n)"
+            (mouseleave)="clear()"
+            (focus)="activate(m.n)"
+            (blur)="clear()"
+          >
+            <span class="legend__num">{{ m.n }}</span>
+            <span class="legend__label">{{ m.label }}</span>
+          </button>
+        </li>
+      }
+    </ol>
+  }
+</figure>

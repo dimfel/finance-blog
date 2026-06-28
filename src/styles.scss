@@ -1,0 +1,123 @@
+/* ===========================================================================
+   Intrinsic Academy — global design system
+   Minimalistic, light theme, generous whitespace, teal/emerald accent.
+   =========================================================================== */
+
+:root {
+  /* Palette */
+  --color-accent: #0f766e;
+  --color-accent-strong: #0b5d56;
+  --color-accent-soft: #ecfdf5;
+  --color-accent-border: #99f6e4;
+
+  --color-text: #1f2933;
+  --color-text-soft: #52606d;
+  --color-text-faint: #7b8794;
+
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8fafa;
+  --color-border: #e4e9ec;
+
+  --color-note-bg: #f3faf9;
+  --color-note-border: #b8e6e0;
+
+  /* Layout */
+  --content-max-width: 760px;
+  --sidebar-width: 264px;
+  --header-height: 56px;
+
+  /* Type */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow-soft: 0 1px 2px rgba(15, 23, 42, 0.04),
+    0 4px 16px rgba(15, 23, 42, 0.05);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-text);
+  line-height: 1.25;
+  font-weight: 650;
+}
+
+h1 {
+  font-size: 1.9rem;
+  margin: 0 0 0.35rem;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 2rem 0 0.6rem;
+}
+
+h3 {
+  font-size: 1.08rem;
+  margin: 1.5rem 0 0.4rem;
+}
+
+p {
+  margin: 0 0 1rem;
+  color: var(--color-text);
+}
+
+/* Dense long-form passages — comfortable, slightly smaller. */
+.small-text {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--color-text-soft);
+}
+
+ul,
+ol {
+  margin: 0 0 1rem;
+  padding-left: 1.4rem;
+}
+li {
+  margin: 0.3rem 0;
+}
+
+/* Accessibility helper */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

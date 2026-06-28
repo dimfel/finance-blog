@@ -1,0 +1,59 @@
+<div class="layout" [class.layout--menu-open]="menuOpen()">
+  <!-- Top header bar -->
+  <header class="topbar">
+    <button
+      type="button"
+      class="topbar__hamburger"
+      (click)="toggleMenu()"
+      [attr.aria-expanded]="menuOpen()"
+      aria-controls="sidebar"
+      aria-label="Toggle chapter navigation"
+    >
+      <span class="topbar__hamburger-bar"></span>
+      <span class="topbar__hamburger-bar"></span>
+      <span class="topbar__hamburger-bar"></span>
+    </button>
+
+    <a class="topbar__brand" routerLink="/home">
+      <span class="topbar__mark" aria-hidden="true">IA</span>
+      <span class="topbar__title">{{ title }}</span>
+    </a>
+  </header>
+
+  <div class="shell">
+    <!-- Sidebar navigation -->
+    <aside id="sidebar" class="sidebar" [class.sidebar--open]="menuOpen()">
+      <nav class="sidebar__nav" aria-label="Chapters">
+        <p class="sidebar__label">Chapters</p>
+        <ol class="sidebar__list">
+          @for (chapter of chapters; track chapter.id) {
+            <li>
+              <a
+                class="sidebar__link"
+                [routerLink]="['/', chapter.id]"
+                routerLinkActive="sidebar__link--active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                (click)="closeMenu()"
+              >
+                <span class="sidebar__num">{{ chapter.order }}</span>
+                <span class="sidebar__text">{{ chapter.title }}</span>
+              </a>
+            </li>
+          }
+        </ol>
+      </nav>
+    </aside>
+
+    <!-- Mobile backdrop -->
+    @if (menuOpen()) {
+      <div class="backdrop" (click)="closeMenu()" aria-hidden="true"></div>
+    }
+
+    <!-- Routed content -->
+    <main class="content">
+      <div class="content__inner">
+        <router-outlet />
+      </div>
+    </main>
+  </div>
+</div>

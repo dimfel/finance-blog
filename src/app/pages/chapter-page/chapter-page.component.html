@@ -1,0 +1,25 @@
+@if (chapter(); as ch) {
+  <app-chapter-view [chapter]="ch" />
+
+  <nav class="chapter-nav" aria-label="Chapter navigation">
+    @if (prev(); as p) {
+      <a class="chapter-nav__link chapter-nav__link--prev" [routerLink]="['/', p.id]">
+        <span class="chapter-nav__dir">Previous</span>
+        <span class="chapter-nav__title">{{ p.title }}</span>
+      </a>
+    } @else {
+      <span></span>
+    }
+
+    @if (next(); as n) {
+      <a class="chapter-nav__link chapter-nav__link--next" [routerLink]="['/', n.id]">
+        <span class="chapter-nav__dir">Next</span>
+        <span class="chapter-nav__title">{{ n.title }}</span>
+      </a>
+    } @else {
+      <span></span>
+    }
+  </nav>
+} @else {
+  <p>Chapter not found.</p>
+}

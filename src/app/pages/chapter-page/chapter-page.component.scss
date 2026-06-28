@@ -1,0 +1,50 @@
+:host {
+  display: block;
+}
+
+.chapter-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.chapter-nav__link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  max-width: 48%;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition:
+    border-color 0.15s ease,
+    background 0.15s ease;
+}
+
+.chapter-nav__link:hover {
+  border-color: var(--color-accent-border);
+  background: var(--color-accent-soft);
+  text-decoration: none;
+}
+
+.chapter-nav__link--next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.chapter-nav__dir {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-faint);
+}
+
+.chapter-nav__title {
+  font-weight: 600;
+  color: var(--color-accent);
+  font-size: 0.95rem;
+}

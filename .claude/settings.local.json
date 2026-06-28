@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(ng version *)",
+      "Bash(ng new *)",
+      "Bash(npx ng *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:4321/)",
+      "Bash(curl -s http://localhost:4321/)",
+      "PowerShell(claude mcp *)",
+      "PowerShell(git *)",
+      "PowerShell(gh *)",
+      "PowerShell($env:GITHUB_TOKEN; $env:GH_TOKEN; $env:GITHUB_PAT)"
+    ]
+  }
+}
