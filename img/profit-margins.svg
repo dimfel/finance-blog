@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 310" width="760" height="310">
+  <rect width="760" height="310" fill="#f8fafa" rx="10"/>
+  <text x="380" y="32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2933">Profit Margins — Cents Kept from Every Dollar of Revenue</text>
+  <text x="380" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" text-anchor="middle" fill="#7b8794">Higher and stable margins = pricing power. Shrinking margins = warning sign. Example: premium software company.</text>
+
+  <!-- Revenue bar (full) -->
+  <text x="30" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#1f2933">Revenue</text>
+  <rect x="160" y="70" width="560" height="30" fill="#e4e9ec" rx="4"/>
+  <rect x="160" y="70" width="560" height="30" fill="#52606d" rx="4"/>
+  <text x="444" y="90" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">$100  (100%)</text>
+  <text x="730" y="90" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#52606d" text-anchor="end">100%</text>
+
+  <!-- Gross Profit bar -->
+  <text x="30" y="140" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#0b5d56">Gross Profit</text>
+  <rect x="160" y="124" width="560" height="30" fill="#e4e9ec" rx="4"/>
+  <rect x="160" y="124" width="392" height="30" fill="#0f766e" rx="4"/>
+  <text x="356" y="144" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">$70  (Gross Margin)</text>
+  <text x="730" y="144" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#0f766e" text-anchor="end">70%</text>
+  <text x="556" y="140" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#dc2626">← COGS $30</text>
+
+  <!-- Operating Profit bar -->
+  <text x="30" y="196" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#0b5d56">Operating Income</text>
+  <rect x="160" y="180" width="560" height="30" fill="#e4e9ec" rx="4"/>
+  <rect x="160" y="180" width="168" height="30" fill="#0f766e" rx="4"/>
+  <text x="244" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">$30</text>
+  <text x="730" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#0f766e" text-anchor="end">30%</text>
+  <text x="334" y="196" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#dc2626">← SG&amp;A + R&amp;D $40</text>
+
+  <!-- Net Income bar -->
+  <text x="30" y="254" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#0b5d56">Net Income</text>
+  <rect x="160" y="238" width="560" height="30" fill="#e4e9ec" rx="4"/>
+  <rect x="160" y="238" width="112" height="30" fill="#0f766e" rx="4"/>
+  <text x="216" y="258" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">$20</text>
+  <text x="730" y="258" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#0f766e" text-anchor="end">20%</text>
+  <text x="278" y="254" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#dc2626">← Interest + Taxes $10</text>
+
+  <!-- Formulas -->
+  <rect x="20" y="278" width="720" height="24" fill="#ecfdf5" rx="5"/>
+  <text x="380" y="294" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0b5d56" text-anchor="middle">Gross Margin = Gross Profit ÷ Revenue    |    Operating Margin = EBIT ÷ Revenue    |    Net Margin = Net Income ÷ Revenue</text>
+</svg>

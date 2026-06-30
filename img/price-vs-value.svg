@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300">
+  <rect width="760" height="300" fill="#f8fafa" rx="10"/>
+  <text x="380" y="32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2933">Price vs Intrinsic Value — The Core Gap</text>
+  <text x="380" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" text-anchor="middle" fill="#7b8794">Market price is set by crowd sentiment minute to minute. Intrinsic value is anchored by the business's real cash. The gap is where opportunity lives.</text>
+
+  <!-- Chart area -->
+  <rect x="30" y="62" width="700" height="180" fill="#ffffff" rx="8" stroke="#e4e9ec" stroke-width="1"/>
+
+  <!-- Y axis labels -->
+  <text x="26" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794" text-anchor="end">$25</text>
+  <text x="26" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794" text-anchor="end">$18</text>
+  <text x="26" y="175" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794" text-anchor="end">$14</text>
+  <text x="26" y="220" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794" text-anchor="end">$9</text>
+
+  <!-- Intrinsic value line (solid, stable) -->
+  <line x1="50" y1="175" x2="710" y2="165" stroke="#0f766e" stroke-width="2.5"/>
+  <text x="714" y="168" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="700" fill="#0f766e">Intrinsic Value</text>
+
+  <!-- Market price line (jagged, volatile) -->
+  <polyline points="50,175 100,150 140,195 190,130 240,160 290,120 330,145 370,185 420,200 470,150 520,170 560,125 600,195 650,175 710,160"
+    fill="none" stroke="#52606d" stroke-width="1.5" stroke-dasharray="5,2"/>
+  <text x="714" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">Market Price</text>
+
+  <!-- Buy opportunity zone -->
+  <rect x="390" y="185" width="70" height="30" fill="#ecfdf5" rx="4" stroke="#0f766e" stroke-width="1"/>
+  <text x="425" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" fill="#0b5d56" text-anchor="middle">Buy zone</text>
+  <text x="425" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" fill="#0b5d56" text-anchor="middle">price &lt; value</text>
+  <line x1="420" y1="200" x2="420" y2="185" stroke="#0f766e" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Overvalued zone -->
+  <rect x="245" y="110" width="70" height="30" fill="#fff1f1" rx="4" stroke="#dc2626" stroke-width="1"/>
+  <text x="280" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" fill="#991b1b" text-anchor="middle">Overvalued</text>
+  <text x="280" y="135" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" fill="#991b1b" text-anchor="middle">price &gt; value</text>
+  <line x1="290" y1="120" x2="290" y2="112" stroke="#dc2626" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Legend -->
+  <line x1="50" y1="255" x2="90" y2="255" stroke="#0f766e" stroke-width="2.5"/>
+  <text x="98" y="259" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0f766e">Intrinsic value (slowly rising with business growth)</text>
+  <line x1="50" y1="275" x2="90" y2="275" stroke="#52606d" stroke-width="1.5" stroke-dasharray="5,2"/>
+  <text x="98" y="279" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">Market price (volatile — driven by sentiment, fear, greed)</text>
+
+  <!-- Graham quote -->
+  <text x="440" y="259" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#7b8794" font-style="italic">"In the short run, a voting machine."</text>
+  <text x="440" y="275" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#7b8794" font-style="italic">"In the long run, a weighing machine." — Ben Graham</text>
+</svg>

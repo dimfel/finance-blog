@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 530" width="760" height="530">
+  <rect width="760" height="530" fill="#f8fafa" rx="10"/>
+  <text x="380" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2933">Income Statement — Line by Line</text>
+  <text x="380" y="52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" text-anchor="middle" fill="#7b8794">Example figures. Real statements follow the same flow.</text>
+
+  <!-- Revenue -->
+  <rect x="20" y="66" width="720" height="54" fill="#0f766e" rx="7"/>
+  <text x="40" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="700" fill="#ffffff">Revenue</text>
+  <text x="40" y="108" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#99f6e4">Total sales for the period — the "top line"</text>
+  <text x="730" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="end">$10,000</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="120" x2="380" y2="134" stroke="#e4e9ec" stroke-width="2"/>
+  <polygon points="374,130 386,130 380,140" fill="#e4e9ec"/>
+
+  <!-- COGS -->
+  <rect x="20" y="140" width="720" height="48" fill="#fff1f1" rx="7"/>
+  <rect x="20" y="140" width="4" height="48" fill="#dc2626" rx="2"/>
+  <text x="44" y="162" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#52606d">− Cost of Goods Sold (COGS)</text>
+  <text x="44" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#7b8794">Direct cost of producing goods/services (materials, direct labour)</text>
+  <text x="730" y="168" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#dc2626" text-anchor="end">($6,000)</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="188" x2="380" y2="200" stroke="#e4e9ec" stroke-width="2"/>
+  <polygon points="374,196 386,196 380,206" fill="#e4e9ec"/>
+
+  <!-- Gross Profit -->
+  <rect x="20" y="206" width="720" height="50" fill="#ecfdf5" rx="7"/>
+  <rect x="20" y="206" width="4" height="50" fill="#0f766e" rx="2"/>
+  <text x="44" y="228" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#0b5d56">= Gross Profit</text>
+  <text x="44" y="246" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">How profitable is the core product before overhead?</text>
+  <text x="730" y="236" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="700" fill="#0b5d56" text-anchor="end">$4,000</text>
+  <rect x="560" y="210" width="148" height="20" fill="#0f766e" rx="4"/>
+  <text x="634" y="224" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">Gross Margin: 40%</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="256" x2="380" y2="268" stroke="#e4e9ec" stroke-width="2"/>
+  <polygon points="374,264 386,264 380,274" fill="#e4e9ec"/>
+
+  <!-- Operating Expenses -->
+  <rect x="20" y="274" width="720" height="48" fill="#fff1f1" rx="7"/>
+  <rect x="20" y="274" width="4" height="48" fill="#dc2626" rx="2"/>
+  <text x="44" y="296" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#52606d">− Operating Expenses (SG&amp;A, R&amp;D)</text>
+  <text x="44" y="312" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#7b8794">Overhead: salaries, rent, marketing, research — cost of running the business</text>
+  <text x="730" y="302" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#dc2626" text-anchor="end">($1,500)</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="322" x2="380" y2="334" stroke="#e4e9ec" stroke-width="2"/>
+  <polygon points="374,330 386,330 380,340" fill="#e4e9ec"/>
+
+  <!-- Operating Income / EBIT -->
+  <rect x="20" y="340" width="720" height="50" fill="#ecfdf5" rx="7"/>
+  <rect x="20" y="340" width="4" height="50" fill="#0f766e" rx="2"/>
+  <text x="44" y="362" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#0b5d56">= Operating Income (EBIT)</text>
+  <text x="44" y="380" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">Earnings Before Interest &amp; Taxes — the core business result</text>
+  <text x="730" y="370" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="700" fill="#0b5d56" text-anchor="end">$2,500</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="390" x2="380" y2="402" stroke="#e4e9ec" stroke-width="2"/>
+  <polygon points="374,398 386,398 380,408" fill="#e4e9ec"/>
+
+  <!-- Interest and Taxes -->
+  <rect x="20" y="408" width="720" height="36" fill="#fff1f1" rx="7"/>
+  <rect x="20" y="408" width="4" height="36" fill="#dc2626" rx="2"/>
+  <text x="44" y="430" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#52606d">− Interest expense &amp; Income taxes</text>
+  <text x="730" y="430" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#dc2626" text-anchor="end">($900)</text>
+
+  <!-- Arrow -->
+  <line x1="380" y1="444" x2="380" y2="454" stroke="#e4e9ec" stroke-width="2"/>
+  <polygon points="374,450 386,450 380,460" fill="#e4e9ec"/>
+
+  <!-- Net Income + EPS -->
+  <rect x="20" y="460" width="720" height="54" fill="#0f766e" rx="7"/>
+  <text x="40" y="483" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="700" fill="#ffffff">= Net Income (Bottom Line)</text>
+  <text x="40" y="502" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#99f6e4">Profit belonging to shareholders → ÷ shares outstanding = EPS ($2.00/share)</text>
+  <text x="730" y="490" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="end">$1,600</text>
+</svg>

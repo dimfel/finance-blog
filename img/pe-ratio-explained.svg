@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340">
+  <rect width="760" height="340" fill="#f8fafa" rx="10"/>
+  <text x="380" y="32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2933">P/E Ratio — What You're Actually Paying</text>
+  <text x="380" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" text-anchor="middle" fill="#7b8794">Trailing P/E uses reported earnings. Forward P/E uses analyst estimates. Always know which one you're reading.</text>
+
+  <!-- Formula section -->
+  <rect x="20" y="66" width="340" height="100" fill="#ecfdf5" rx="8" stroke="#99f6e4" stroke-width="1.5"/>
+  <text x="190" y="90" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#0b5d56" text-anchor="middle">The Formula</text>
+  <text x="100" y="120" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="28" font-weight="700" fill="#0f766e" text-anchor="middle">P</text>
+  <line x1="60" y1="128" x2="140" y2="128" stroke="#0f766e" stroke-width="2"/>
+  <text x="100" y="152" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="28" font-weight="700" fill="#0f766e" text-anchor="middle">E</text>
+  <text x="158" y="138" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" fill="#1f2933">=</text>
+  <text x="230" y="115" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" fill="#52606d" text-anchor="middle">Share Price</text>
+  <line x1="170" y1="124" x2="290" y2="124" stroke="#52606d" stroke-width="1.5"/>
+  <text x="230" y="148" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" fill="#52606d" text-anchor="middle">EPS (Earnings per Share)</text>
+
+  <!-- Example -->
+  <rect x="380" y="66" width="360" height="100" fill="#ffffff" rx="8" stroke="#e4e9ec" stroke-width="1.5"/>
+  <text x="560" y="90" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#1f2933" text-anchor="middle">Example: P/E of 20</text>
+  <text x="400" y="114" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#52606d">Share price:</text>
+  <text x="720" y="114" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#1f2933" text-anchor="end">$100</text>
+  <text x="400" y="132" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#52606d">EPS (annual profit / share):</text>
+  <text x="720" y="132" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#1f2933" text-anchor="end">$5</text>
+  <line x1="400" y1="140" x2="720" y2="140" stroke="#e4e9ec" stroke-width="1"/>
+  <text x="400" y="157" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#0b5d56">P/E =</text>
+  <text x="720" y="157" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="700" fill="#0f766e" text-anchor="end">$100 ÷ $5 = 20×</text>
+
+  <!-- What it means label -->
+  <text x="380" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#7b8794" text-anchor="middle">→ You pay $20 for every $1 of yearly profit. At this rate, earnings pay you back in 20 years (if earnings stay flat).</text>
+
+  <!-- P/E Scale -->
+  <rect x="20" y="212" width="720" height="112" fill="#ffffff" rx="8" stroke="#e4e9ec" stroke-width="1.5"/>
+  <text x="380" y="232" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#1f2933" text-anchor="middle">How to Read the P/E Level</text>
+
+  <!-- Scale bar -->
+  <defs>
+    <linearGradient id="peGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="35%" stop-color="#0f766e"/>
+      <stop offset="65%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+  </defs>
+  <rect x="40" y="244" width="680" height="20" fill="url(#peGrad)" rx="10"/>
+  <!-- Markers -->
+  <line x1="40" y1="244" x2="40" y2="274" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="40" y="286" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">0</text>
+  <line x1="210" y1="244" x2="210" y2="274" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="210" y="286" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">15</text>
+  <line x1="380" y1="244" x2="380" y2="274" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="380" y="286" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">25</text>
+  <line x1="550" y1="244" x2="550" y2="274" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="550" y="286" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">40</text>
+  <line x1="720" y1="244" x2="720" y2="274" stroke="#1f2933" stroke-width="1.5"/>
+  <text x="720" y="286" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#1f2933" text-anchor="middle">60+</text>
+
+  <!-- Labels under scale -->
+  <text x="125" y="308" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#16a34a" text-anchor="middle">Potentially cheap</text>
+  <text x="295" y="308" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0f766e" text-anchor="middle">Market average range</text>
+  <text x="465" y="308" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#d97706" text-anchor="middle">Growth premium</text>
+  <text x="635" y="308" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#dc2626" text-anchor="middle">Needs strong growth</text>
+
+  <!-- Note -->
+  <text x="380" y="326" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794" text-anchor="middle">Context matters: a P/E of 30 is expensive for a slow utility but reasonable for a fast-growing software company. Always compare to peers.</text>
+</svg>
