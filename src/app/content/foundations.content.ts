@@ -76,6 +76,12 @@ export const foundationsChapter: Chapter = {
       text: 'This is the single most important distinction in this entire course, so I will be blunt about it. Price is the number on the screen, set by the crowd minute to minute. Value (we will later call it intrinsic value) is what the business is genuinely worth based on the cash it will produce over its lifetime. They are not the same thing, and the gap between them is where careful investors make their money.',
     },
     {
+      type: 'figure',
+      image: 'img/price-vs-value.svg',
+      alt: 'Chart showing a jagged, volatile market price line oscillating around a smoother, slowly rising intrinsic value line, with buy zone and overvalued zones labelled',
+      caption: 'Market price is noise layered over signal. The signal — intrinsic value — moves slowly as the business grows. The noise — sentiment, fear, greed, news — moves daily. Patient investors buy when the noise pushes price well below the signal.',
+    },
+    {
       type: 'p',
       text: 'Think of a house. Its price is whatever a buyer will pay this weekend, which depends on the mood of the market, interest rates, and how many other houses are for sale. Its value depends on the rent it can earn, its condition, and its location for decades to come. A smart buyer estimates value and tries to pay a price below it. Stocks work exactly the same way.',
     },
@@ -116,6 +122,12 @@ export const foundationsChapter: Chapter = {
     {
       type: 'small',
       text: 'Compounding is earning returns on your past returns, so growth feeds on itself. Suppose you invest $10,000 and it grows about 8% a year (a rough long-run average for a broad stock market, though no year is average and nothing is guaranteed). After one year you have $10,800. The next year, you earn 8% not just on your original $10,000 but on the full $10,800, giving $11,664. It looks slow at first. But left alone, that $10,000 becomes roughly $21,600 in nine years, about $46,600 in twenty years, and over $100,000 in thirty. You added nothing; time did the work. This is why starting early and not interrupting the process beats almost every clever trade. The enemy of compounding is the urge to tinker.',
+    },
+    {
+      type: 'figure',
+      image: 'img/compounding-power.svg',
+      alt: 'Bar chart showing $10,000 growing to approximately $14,693 after 5 years, $21,589 after 10 years, $46,610 after 20 years, and $100,626 after 30 years at approximately 8 percent per year',
+      caption: 'No extra deposits. No clever timing. Just time and a steady rate of return. The bars accelerate because each year\'s gain becomes next year\'s starting principal. This is why starting early — even with a small amount — beats starting later with a larger sum.',
     },
     {
       type: 'note',

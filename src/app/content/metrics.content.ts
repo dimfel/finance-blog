@@ -41,6 +41,12 @@ export const metricsChapter: Chapter = {
       text: 'There are two flavors you must not confuse. Trailing P/E (often shown as P/E TTM, for trailing twelve months) uses the actual earnings already reported over the past year, so it is fact. Forward P/E uses analysts\' estimates of next year\'s earnings, so it is opinion. Forward looks lower for a growing company because its earnings are expected to rise, but it depends on a forecast that may be wrong. Always know which one you are looking at.',
     },
     {
+      type: 'figure',
+      image: 'img/pe-ratio-explained.svg',
+      alt: 'P/E ratio formula diagram showing Share Price divided by EPS equals the P/E multiple, with a worked example at 20x and a colour-coded scale showing what different P/E levels typically indicate',
+      caption: 'The P/E scale is context-dependent. A software firm growing revenue 30% per year can justify a P/E of 40; a mature utility at the same multiple is almost certainly overpriced. Always compare to peers and history.',
+    },
+    {
       type: 'h3', text: 'PEG ratio (price/earnings to growth)' },
     {
       type: 'p',
@@ -71,6 +77,12 @@ export const metricsChapter: Chapter = {
       text: 'A cheap price means nothing if the underlying business is mediocre. These ratios measure how good the company is at turning sales and capital into profit.',
     },
     {
+      type: 'figure',
+      image: 'img/eps-broker-view.svg',
+      alt: 'Mock stock broker quote screen showing the stats grid with EPS TTM and P/E TTM fields highlighted, alongside formula panels explaining how EPS is calculated from net income divided by shares outstanding, and how P/E is derived from it',
+      caption: 'In any stock app, EPS (TTM) and P/E (TTM) sit side by side in the statistics grid. EPS tells you the profit per share; P/E tells you how many dollars the market pays for each of those profit dollars. These are always the first two fields worth reading.',
+    },
+    {
       type: 'h3', text: 'Margins: gross, operating, net' },
     {
       type: 'ul',
@@ -79,6 +91,12 @@ export const metricsChapter: Chapter = {
         'Operating margin = operating income divided by revenue. What survives after running the whole operation, before interest and taxes. A clean read on the core business.',
         'Net margin = net income divided by revenue. The final cents of profit kept from each sales dollar. A company keeping 20 cents on the dollar is far healthier than one keeping 2 cents.',
       ],
+    },
+    {
+      type: 'figure',
+      image: 'img/profit-margins.svg',
+      alt: 'Horizontal bar chart showing gross margin, operating margin, and net margin as progressively shorter bars, illustrating how costs are subtracted at each stage from revenue to net income',
+      caption: 'Each margin tells you a different story. Gross margin reveals product strength. Operating margin reveals operational efficiency. Net margin is what the owners actually keep. A company with 70% gross margin but only 5% net margin has a great product but a bloated cost structure.',
     },
     {
       type: 'h3', text: 'ROE and ROA (returns on equity and assets)' },

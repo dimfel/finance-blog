@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380">
+  <rect width="760" height="380" fill="#f8fafa" rx="10"/>
+  <text x="380" y="32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2933">Discounted Cash Flow (DCF) — The Core Idea</text>
+  <text x="380" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" text-anchor="middle" fill="#7b8794">A dollar in the future is worth less than a dollar today. DCF converts future cash into today's equivalent value.</text>
+
+  <!-- Timeline axis -->
+  <line x1="40" y1="180" x2="720" y2="180" stroke="#e4e9ec" stroke-width="2"/>
+  <polygon points="714,175 726,180 714,185" fill="#e4e9ec"/>
+
+  <!-- Today marker -->
+  <circle cx="80" cy="180" r="8" fill="#0f766e"/>
+  <text x="80" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#0f766e" text-anchor="middle">Today</text>
+  <text x="80" y="225" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#7b8794" text-anchor="middle">Present</text>
+
+  <!-- Year 1 -->
+  <circle cx="230" cy="180" r="6" fill="#52606d"/>
+  <text x="230" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d" text-anchor="middle">Year 1</text>
+
+  <!-- Year 1 cash flow box -->
+  <rect x="180" y="80" width="100" height="72" fill="#ffffff" rx="6" stroke="#e4e9ec" stroke-width="1.5"/>
+  <text x="230" y="100" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#7b8794" text-anchor="middle">FCF: $100</text>
+  <text x="230" y="118" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794" text-anchor="middle">÷ (1.10)¹</text>
+  <line x1="190" y1="126" x2="270" y2="126" stroke="#e4e9ec" stroke-width="1"/>
+  <text x="230" y="143" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#0f766e" text-anchor="middle">PV = $91</text>
+  <!-- Arrow to today -->
+  <line x1="210" y1="152" x2="115" y2="175" stroke="#0f766e" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowG)"/>
+
+  <!-- Year 2 -->
+  <circle cx="380" cy="180" r="6" fill="#52606d"/>
+  <text x="380" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d" text-anchor="middle">Year 2</text>
+
+  <!-- Year 2 cash flow box -->
+  <rect x="330" y="70" width="100" height="82" fill="#ffffff" rx="6" stroke="#e4e9ec" stroke-width="1.5"/>
+  <text x="380" y="90" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#7b8794" text-anchor="middle">FCF: $110</text>
+  <text x="380" y="108" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794" text-anchor="middle">÷ (1.10)²</text>
+  <line x1="340" y1="116" x2="420" y2="116" stroke="#e4e9ec" stroke-width="1"/>
+  <text x="380" y="133" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#0f766e" text-anchor="middle">PV = $91</text>
+  <line x1="365" y1="152" x2="130" y2="175" stroke="#0f766e" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowG)"/>
+
+  <!-- Year 3 -->
+  <circle cx="530" cy="180" r="6" fill="#52606d"/>
+  <text x="530" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d" text-anchor="middle">Year 3</text>
+
+  <!-- Year 3 cash flow box -->
+  <rect x="480" y="60" width="100" height="92" fill="#ffffff" rx="6" stroke="#e4e9ec" stroke-width="1.5"/>
+  <text x="530" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#7b8794" text-anchor="middle">FCF: $120</text>
+  <text x="530" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794" text-anchor="middle">÷ (1.10)³</text>
+  <line x1="490" y1="106" x2="570" y2="106" stroke="#e4e9ec" stroke-width="1"/>
+  <text x="530" y="123" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#0f766e" text-anchor="middle">PV = $90</text>
+  <line x1="512" y1="152" x2="145" y2="176" stroke="#0f766e" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowG)"/>
+
+  <!-- Terminal Value -->
+  <circle cx="680" cy="180" r="8" fill="#0f766e"/>
+  <text x="680" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0f766e" text-anchor="middle">Terminal</text>
+  <text x="680" y="224" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0f766e" text-anchor="middle">Value</text>
+
+  <rect x="620" y="56" width="118" height="96" fill="#ecfdf5" rx="6" stroke="#99f6e4" stroke-width="1.5"/>
+  <text x="679" y="75" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0b5d56" text-anchor="middle">All future FCF</text>
+  <text x="679" y="91" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#7b8794" text-anchor="middle">beyond Year 3</text>
+  <text x="679" y="109" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#7b8794" text-anchor="middle">TV: $1,500</text>
+  <line x1="630" y1="116" x2="728" y2="116" stroke="#99f6e4" stroke-width="1"/>
+  <text x="679" y="134" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#0f766e" text-anchor="middle">PV = $1,128</text>
+  <line x1="655" y1="152" x2="165" y2="177" stroke="#0f766e" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowG)"/>
+
+  <defs>
+    <marker id="arrowG" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#0f766e"/>
+    </marker>
+  </defs>
+
+  <!-- Present value label -->
+  <text x="80" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0b5d56" font-weight="600" text-anchor="middle">All PVs flow</text>
+  <text x="80" y="254" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0b5d56" font-weight="600" text-anchor="middle">back here ↑</text>
+
+  <!-- Bottom result box -->
+  <rect x="20" y="280" width="720" height="86" fill="#0f766e" rx="8"/>
+  <text x="380" y="302" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Intrinsic Value = Sum of All Present Values</text>
+  <text x="380" y="322" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#99f6e4" text-anchor="middle">$91 + $91 + $90 + $1,128 = ~$1,400 for the whole business</text>
+  <text x="380" y="342" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#ecfdf5" text-anchor="middle">÷ shares outstanding → intrinsic value per share</text>
+  <text x="380" y="358" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#99f6e4" text-anchor="middle">Discount rate (10%) = your required return. Higher risk → higher rate → lower value.</text>
+</svg>

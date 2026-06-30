@@ -75,6 +75,12 @@ export const valuationChapter: Chapter = {
       type: 'p',
       text: 'The discount rate is simply the annual return you require to take on the risk of owning this business. It is your hurdle. If you could earn, say, 4% on a safe government bond with no stress, you would demand more than 4% to accept the bumps and uncertainty of a stock, maybe 8%, 10%, or higher for a risky one. A higher discount rate means you are treating the future cash as riskier, which shrinks its present value and lowers the price you are willing to pay. Riskier business, higher hurdle, lower value. That is the whole intuition.'
     },
+    {
+      type: 'figure',
+      image: 'img/dcf-timeline.svg',
+      alt: 'Timeline diagram showing future free cash flows in Year 1, Year 2, Year 3 and a Terminal Value, with dashed arrows discounting each back to a single Present Value sum today',
+      caption: 'Every future cash flow is worth less in today\'s terms — discount it back using your required return rate. Add them all up and you have your intrinsic value estimate. Terminal value (all cash beyond your forecast) often accounts for 60-80% of the total, which is why humility is essential.',
+    },
     { type: 'h2', text: 'A simple worked DCF example' },
     {
       type: 'p',
@@ -119,6 +125,12 @@ export const valuationChapter: Chapter = {
       ]
     },
     {
+      type: 'figure',
+      image: 'img/economic-moats.svg',
+      alt: 'Five cards showing the five types of economic moat: Brand and IP, Network Effects, Switching Costs, Cost Advantage, and Efficient Scale, each with real company examples',
+      caption: 'Most great businesses have at least one of these five structural advantages. The strongest have several overlapping moats — for example, a payment network enjoys both network effects (more users → more useful) and switching costs (too painful to change your payment infrastructure).',
+    },
+    {
       type: 'p',
       text: 'A wide moat justifies paying a premium price, because the cash flows are more defensible. The absence of a moat is a warning: today fat margins will likely be competed away tomorrow, so do not extrapolate them forever in your model.'
     },
@@ -130,6 +142,12 @@ export const valuationChapter: Chapter = {
     {
       type: 'p',
       text: 'Think of it like an engineer building a bridge rated for 10 tons but designed to hold 30. The extra capacity is there precisely because the real world is messy and estimates are imperfect. Investing is the same. The margin of safety does not just improve your returns, it keeps you in the game when your analysis turns out to be off, which it sometimes will be.'
+    },
+    {
+      type: 'figure',
+      image: 'img/margin-of-safety.svg',
+      alt: 'Price scale diagram showing the buy target at $9, maximum buy price at $10, intrinsic value estimate at $14, and overvalued zone at $18 and above, with the margin of safety gap labelled as approximately 36 percent',
+      caption: 'If your intrinsic value estimate is ~$14, you wait until the market offers it at ~$9–$10. That ~36% discount is your cushion against being wrong. Patience is the mechanism: you do nothing until the price comes to you.',
     },
     { type: 'h2', text: 'Comparing the valuation methods' },
     {

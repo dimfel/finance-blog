@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440">
+  <rect width="760" height="440" fill="#f8fafa" rx="10"/>
+  <text x="380" y="34" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2933">Cash Flow Statement — Three Sections</text>
+  <text x="380" y="52" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" text-anchor="middle" fill="#7b8794">Where did the actual cash move? Harder to fake than reported profit.</text>
+
+  <!-- Section 1: Operating -->
+  <rect x="20" y="66" width="218" height="36" fill="#0f766e" rx="7 7 0 0"/>
+  <text x="129" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Operating Activities</text>
+  <rect x="20" y="102" width="218" height="210" fill="#ecfdf5" rx="0 0 7 7"/>
+  <text x="38" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#0b5d56">Cash from the core business</text>
+  <text x="38" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">+ Net income</text>
+  <text x="228" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0b5d56" text-anchor="end">$1,600</text>
+  <text x="38" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">+ Depreciation &amp; amortisation</text>
+  <text x="228" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0b5d56" text-anchor="end">$300</text>
+  <text x="38" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">± Changes in working capital</text>
+  <text x="228" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#dc2626" text-anchor="end">($200)</text>
+  <line x1="38" y1="190" x2="228" y2="190" stroke="#99f6e4" stroke-width="1"/>
+  <text x="38" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#0b5d56">= Cash from Operations</text>
+  <text x="228" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#0f766e" text-anchor="end">$1,700</text>
+  <rect x="30" y="218" width="198" height="38" fill="#0f766e" rx="5"/>
+  <text x="129" y="232" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#99f6e4" text-anchor="middle">You want this POSITIVE</text>
+  <text x="129" y="248" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#99f6e4" text-anchor="middle">and GROWING — it's the engine</text>
+  <text x="38" y="278" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">Depreciation adds back because</text>
+  <text x="38" y="291" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">it reduced profit with no cash out</text>
+
+  <!-- Section 2: Investing -->
+  <rect x="271" y="66" width="218" height="36" fill="#b45309" rx="7 7 0 0"/>
+  <text x="380" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Investing Activities</text>
+  <rect x="271" y="102" width="218" height="210" fill="#fffbeb" rx="0 0 7 7"/>
+  <text x="289" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#92400e">Cash for/from long-term assets</text>
+  <text x="289" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">− Capital expenditures (capex)</text>
+  <text x="481" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#dc2626" text-anchor="end">($400)</text>
+  <text x="289" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">− Acquisitions</text>
+  <text x="481" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#dc2626" text-anchor="end">($300)</text>
+  <text x="289" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">+ Asset sales / investments</text>
+  <text x="481" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0b5d56" text-anchor="end">$100</text>
+  <line x1="289" y1="190" x2="481" y2="190" stroke="#fcd34d" stroke-width="1"/>
+  <text x="289" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#92400e">= Cash from Investing</text>
+  <text x="481" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#b45309" text-anchor="end">($600)</text>
+  <rect x="281" y="218" width="198" height="38" fill="#b45309" rx="5"/>
+  <text x="380" y="232" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#fef3c7" text-anchor="middle">Often NEGATIVE — investing in</text>
+  <text x="380" y="248" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#fef3c7" text-anchor="middle">future growth is a good sign</text>
+  <text x="289" y="278" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">Capex is key: it's the cost of</text>
+  <text x="289" y="291" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">keeping/expanding the business</text>
+
+  <!-- Section 3: Financing -->
+  <rect x="522" y="66" width="218" height="36" fill="#4f46e5" rx="7 7 0 0"/>
+  <text x="631" y="89" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Financing Activities</text>
+  <rect x="522" y="102" width="218" height="210" fill="#eef2ff" rx="0 0 7 7"/>
+  <text x="540" y="122" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#3730a3">Cash with lenders &amp; owners</text>
+  <text x="540" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">+ New debt issued</text>
+  <text x="732" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0b5d56" text-anchor="end">$200</text>
+  <text x="540" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">− Debt repaid</text>
+  <text x="732" y="160" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#dc2626" text-anchor="end">($100)</text>
+  <text x="540" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">− Dividends paid / buybacks</text>
+  <text x="732" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#dc2626" text-anchor="end">($200)</text>
+  <line x1="540" y1="190" x2="732" y2="190" stroke="#c7d2fe" stroke-width="1"/>
+  <text x="540" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#3730a3">= Cash from Financing</text>
+  <text x="732" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" font-weight="700" fill="#4f46e5" text-anchor="end">($100)</text>
+  <rect x="532" y="218" width="198" height="38" fill="#4f46e5" rx="5"/>
+  <text x="631" y="232" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#e0e7ff" text-anchor="middle">Shows how the company funds</text>
+  <text x="631" y="248" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#e0e7ff" text-anchor="middle">itself and rewards owners</text>
+
+  <!-- FCF Box at bottom -->
+  <rect x="20" y="346" width="720" height="78" fill="#0f766e" rx="8"/>
+  <text x="380" y="368" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Free Cash Flow (FCF) = Operating Cash Flow − Capital Expenditures</text>
+  <text x="380" y="388" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#99f6e4" text-anchor="middle">$1,700 − $400 = $1,300</text>
+  <text x="380" y="410" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#ecfdf5" text-anchor="middle">The real, spendable cash left after keeping the business running. Many investors trust this more than net income.</text>
+</svg>

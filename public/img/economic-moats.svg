@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 370" width="760" height="370">
+  <rect width="760" height="370" fill="#f8fafa" rx="10"/>
+  <text x="380" y="32" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#1f2933">Economic Moats — The 5 Durable Competitive Advantages</text>
+  <text x="380" y="50" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" text-anchor="middle" fill="#7b8794">A moat protects a company's profits from competition the way a moat protects a castle. Wider moat = more reliable future cash flows.</text>
+
+  <!-- Card 1: Brand -->
+  <rect x="20" y="66" width="136" height="160" fill="#ecfdf5" rx="8" stroke="#99f6e4" stroke-width="1.5"/>
+  <rect x="20" y="66" width="136" height="36" fill="#0f766e" rx="8 8 0 0"/>
+  <text x="88" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" text-anchor="middle">🏷️</text>
+  <text x="88" y="96" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Brand / IP</text>
+  <text x="36" y="120" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">Trusted name or</text>
+  <text x="36" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">patents that allow</text>
+  <text x="36" y="152" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">pricing premium.</text>
+  <text x="36" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#0b5d56" font-weight="600">Examples:</text>
+  <text x="36" y="192" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">Apple, Coca-Cola,</text>
+  <text x="36" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">LVMH, Nike</text>
+
+  <!-- Card 2: Network Effects -->
+  <rect x="166" y="66" width="136" height="160" fill="#ecfdf5" rx="8" stroke="#99f6e4" stroke-width="1.5"/>
+  <rect x="166" y="66" width="136" height="36" fill="#0f766e" rx="8 8 0 0"/>
+  <text x="234" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" text-anchor="middle">🔗</text>
+  <text x="234" y="96" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Network Effects</text>
+  <text x="182" y="120" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">Product gets more</text>
+  <text x="182" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">valuable as more</text>
+  <text x="182" y="152" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">people use it.</text>
+  <text x="182" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#0b5d56" font-weight="600">Examples:</text>
+  <text x="182" y="192" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">Visa, Meta, Airbnb,</text>
+  <text x="182" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">stock exchanges</text>
+
+  <!-- Card 3: Switching Costs -->
+  <rect x="312" y="66" width="136" height="160" fill="#ecfdf5" rx="8" stroke="#99f6e4" stroke-width="1.5"/>
+  <rect x="312" y="66" width="136" height="36" fill="#0f766e" rx="8 8 0 0"/>
+  <text x="380" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" text-anchor="middle">🔒</text>
+  <text x="380" y="96" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Switching Costs</text>
+  <text x="328" y="120" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">Painful or costly</text>
+  <text x="328" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">for customers to</text>
+  <text x="328" y="152" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">leave. They stay.</text>
+  <text x="328" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#0b5d56" font-weight="600">Examples:</text>
+  <text x="328" y="192" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">Microsoft 365, SAP,</text>
+  <text x="328" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">Salesforce, Oracle</text>
+
+  <!-- Card 4: Cost Advantage -->
+  <rect x="458" y="66" width="136" height="160" fill="#ecfdf5" rx="8" stroke="#99f6e4" stroke-width="1.5"/>
+  <rect x="458" y="66" width="136" height="36" fill="#0f766e" rx="8 8 0 0"/>
+  <text x="526" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" text-anchor="middle">💰</text>
+  <text x="526" y="96" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Cost Advantage</text>
+  <text x="474" y="120" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">Produces cheaper</text>
+  <text x="474" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">than rivals, so it</text>
+  <text x="474" y="152" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">undercuts and wins.</text>
+  <text x="474" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#0b5d56" font-weight="600">Examples:</text>
+  <text x="474" y="192" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">Amazon, Walmart,</text>
+  <text x="474" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">Costco, TSMC</text>
+
+  <!-- Card 5: Efficient Scale -->
+  <rect x="604" y="66" width="136" height="160" fill="#ecfdf5" rx="8" stroke="#99f6e4" stroke-width="1.5"/>
+  <rect x="604" y="66" width="136" height="36" fill="#0f766e" rx="8 8 0 0"/>
+  <text x="672" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" text-anchor="middle">🏗️</text>
+  <text x="672" y="96" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Efficient Scale</text>
+  <text x="620" y="120" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">Market only big</text>
+  <text x="620" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">enough for one or</text>
+  <text x="620" y="152" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">few players.</text>
+  <text x="620" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#0b5d56" font-weight="600">Examples:</text>
+  <text x="620" y="192" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">Rail networks, local</text>
+  <text x="620" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" fill="#7b8794">utilities, pipelines</text>
+
+  <!-- Width indicators -->
+  <rect x="20" y="248" width="720" height="28" fill="#ffffff" rx="4" stroke="#e4e9ec" stroke-width="1"/>
+  <rect x="20" y="248" width="54" height="28" fill="#fef3c7" rx="4 0 0 4"/>
+  <text x="47" y="267" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#92400e" text-anchor="middle">Narrow</text>
+  <text x="220" y="267" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d" text-anchor="middle">Moderate moat — some protection, some vulnerability</text>
+  <rect x="686" y="248" width="54" height="28" fill="#ecfdf5" rx="0 4 4 0"/>
+  <text x="713" y="267" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#0b5d56" text-anchor="middle">Wide</text>
+
+  <!-- Bottom note -->
+  <rect x="20" y="290" width="720" height="66" fill="#ecfdf5" rx="7"/>
+  <text x="40" y="312" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#0b5d56">Why moats matter for valuation:</text>
+  <text x="40" y="330" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">A wide moat means today's high profit margins are likely to persist — making your DCF's future cash flow projections more reliable.</text>
+  <text x="40" y="348" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52606d">No moat = today's margins will likely be competed away. Don't extrapolate them forever. A wide moat can justify paying a premium price.</text>
+</svg>
